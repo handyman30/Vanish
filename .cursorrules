@@ -1,0 +1,188 @@
+# Vanish App Development Rules
+
+## Project Overview
+This is an Islamic dating app built with Next.js 14, TypeScript, Prisma, and PostgreSQL. The app focuses on verified profiles, Islamic compatibility, and smart notifications.
+
+## Tech Stack
+- **Frontend**: Next.js 14 (App Router), TypeScript, Tailwind CSS, Framer Motion
+- **Backend**: Next.js API routes, Prisma ORM, PostgreSQL
+- **Authentication**: NextAuth.js
+- **Deployment**: Railway (Backend), Netlify (Frontend)
+
+## Code Style Guidelines
+
+### TypeScript
+- Use strict TypeScript configuration
+- Prefer interfaces over types for object shapes
+- Use proper type annotations for all functions
+- Avoid `any` type - use proper typing
+
+### React/Next.js
+- Use functional components with hooks
+- Prefer server components when possible
+- Use proper error boundaries
+- Follow Next.js 14 App Router conventions
+
+### Database
+- Use Prisma for all database operations
+- Follow naming conventions: camelCase for fields, PascalCase for models
+- Always include proper relations in schema
+- Use migrations for schema changes
+
+### API Routes
+- Use proper HTTP status codes
+- Implement proper error handling
+- Use Zod for request validation
+- Return consistent JSON responses
+
+## File Structure
+```
+app/
+├── api/           # API routes
+├── auth/          # Authentication pages
+├── dashboard/     # Main app pages
+├── globals.css    # Global styles
+└── layout.tsx     # Root layout
+
+components/        # Reusable components
+prisma/           # Database schema
+public/           # Static assets
+```
+
+## Development Workflow
+
+### Branch Strategy
+- `main` - Production code
+- `develop` - Development branch
+- `feature/*` - Feature branches
+- `bugfix/*` - Bug fixes
+- `hotfix/*` - Critical fixes
+
+### Commit Messages
+Use conventional commits:
+- `feat:` New features
+- `fix:` Bug fixes
+- `docs:` Documentation
+- `style:` Formatting
+- `refactor:` Code refactoring
+- `test:` Tests
+- `chore:` Maintenance
+
+### Task Management
+- Follow the task IDs from `tasks.md` (VD-1, VD-2, etc.)
+- Create feature branches: `feature/vd-{number}-description`
+- Update task status in `tasks.md`
+
+## Islamic App Considerations
+
+### Privacy & Modesty
+- Implement proper privacy controls
+- Respect Islamic modesty guidelines
+- Provide family involvement options
+- Support wali/guardian features
+
+### Halal Interactions
+- Ensure chat features follow Islamic guidelines
+- Implement proper content moderation
+- Support family introduction preferences
+- Respect religious practices
+
+### Verification
+- Multi-level verification system
+- Instagram social proof integration
+- Engagement analytics for authenticity
+- Fraud detection mechanisms
+
+## Code Quality Standards
+
+### Performance
+- Optimize database queries
+- Implement proper caching
+- Use Next.js Image component
+- Minimize bundle size
+
+### Security
+- Validate all inputs
+- Use proper authentication
+- Implement rate limiting
+- Secure API endpoints
+
+### Accessibility
+- Use semantic HTML
+- Provide proper ARIA labels
+- Ensure keyboard navigation
+- Support screen readers
+
+## Common Patterns
+
+### API Response Format
+```typescript
+{
+  success: boolean;
+  data?: any;
+  error?: string;
+  message?: string;
+}
+```
+
+### Error Handling
+```typescript
+try {
+  // operation
+} catch (error) {
+  console.error('Operation failed:', error);
+  return NextResponse.json(
+    { error: 'Operation failed' },
+    { status: 500 }
+  );
+}
+```
+
+### Form Validation
+```typescript
+const schema = z.object({
+  field: z.string().min(1, 'Field is required'),
+});
+
+const { register, handleSubmit, formState: { errors } } = useForm({
+  resolver: zodResolver(schema),
+});
+```
+
+## Testing Guidelines
+- Write unit tests for utilities
+- Test API endpoints
+- Test form validation
+- Test authentication flows
+
+## Deployment Checklist
+- [ ] Environment variables configured
+- [ ] Database migrations applied
+- [ ] Build passes without errors
+- [ ] All tests passing
+- [ ] Performance optimized
+- [ ] Security reviewed
+
+## Helpful Commands
+```bash
+# Development
+npm run dev
+npm run build
+npm run lint
+
+# Database
+npm run db:generate
+npm run db:push
+npm run db:studio
+
+# Git
+git checkout -b feature/vd-{number}-description
+git commit -m "feat: add {feature description}"
+```
+
+## Notes
+- Always consider Islamic values and modesty in design
+- Prioritize user privacy and security
+- Focus on quality over quantity in matching
+- Implement proper verification systems
+- Support family involvement where appropriate 
