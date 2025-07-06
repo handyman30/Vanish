@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
 export default function Navigation() {
   return (
@@ -18,19 +18,43 @@ export default function Navigation() {
             </div>
             <span className="text-xl font-bold gradient-text">Vanish</span>
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-light/80 hover:text-light transition-colors">Features</a>
-            <a href="#video" className="text-light/80 hover:text-light transition-colors">Video Intros</a>
-            <a href="#social-proof" className="text-light/80 hover:text-light transition-colors">Social Proof</a>
-            <a href="#notifications" className="text-light/80 hover:text-light transition-colors">Smart Alerts</a>
+            <a
+              href="#features"
+              className="text-light/80 hover:text-light transition-colors"
+            >
+              Features
+            </a>
+            <a
+              href="#islamic-compatibility"
+              className="text-light/80 hover:text-light transition-colors"
+            >
+              Islamic Match
+            </a>
+            <a
+              href="#video"
+              className="text-light/80 hover:text-light transition-colors"
+            >
+              Video Intros
+            </a>
+            <a
+              href="#social-proof"
+              className="text-light/80 hover:text-light transition-colors"
+            >
+              Social Proof
+            </a>
+            <a
+              href="#notifications"
+              className="text-light/80 hover:text-light transition-colors"
+            >
+              Smart Alerts
+            </a>
           </div>
-          
-          <button className="button-primary">
-            Get Early Access
-          </button>
+
+          <button className="button-primary">Get Early Access</button>
         </div>
       </div>
     </motion.nav>
-  )
-} 
+  );
+}
