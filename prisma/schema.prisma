@@ -1,0 +1,95 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Profile information
+  profile Profile?
+
+  // Authentication
+  emailVerified DateTime?
+  image         String?
+
+  @@map("users")
+}
+
+model Profile {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  // Basic profile info
+  bio         String?
+  age         Int?
+  location    String?
+  occupation  String?
+  
+  // Islamic profile fields
+  religiousPractice String? // "Very Religious", "Moderately Religious", "Somewhat Religious", "Not Religious"
+  sect              String? // "Sunni", "Shia", "Other"
+  hijabPreference   String? // "Required", "Preferred", "Not Important"
+  marriageTimeline  String? // "Within 6 months", "6-12 months", "1-2 years", "No rush"
+  
+  // Matching preferences
+  ageRangeMin       Int? @default(18)
+  ageRangeMax       Int? @default(50)
+  locationRadius    Int? @default(50) // in km
+  
+  // Verification status
+  isEmailVerified   Boolean @default(false)
+  isPhoneVerified   Boolean @default(false)
+  isPhotoVerified   Boolean @default(false)
+  isInstagramVerified Boolean @default(false)
+  
+  // Instagram integration
+  instagramUsername String?
+  instagramFollowers Int?
+  instagramEngagementRate Float?
+  
+  // Video introduction
+  videoUrl          String?
+  videoVerified     Boolean @default(false)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("profiles")
+}
+
+model Match {
+  id        String   @id @default(cuid())
+  user1Id   String
+  user2Id   String
+  status    String   @default("pending") // "pending", "accepted", "rejected", "expired"
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([user1Id, user2Id])
+  @@map("matches")
+}
+
+model Message {
+  id        String   @id @default(cuid())
+  matchId   String
+  senderId  String
+  content   String
+  createdAt DateTime @default(now())
+
+  @@map("messages")
+} 
