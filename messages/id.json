@@ -1,0 +1,204 @@
+{
+  "navigation": {
+    "features": "Fitur",
+    "islamicMatch": "Kecocokan Islam",
+    "videoIntros": "Video Perkenalan",
+    "socialProof": "Bukti Sosial",
+    "smartAlerts": "Peringatan Cerdas",
+    "getEarlyAccess": "Dapatkan Akses Awal"
+  },
+  "hero": {
+    "tagline": "Buat koneksi sebelum menghilang",
+    "title": "Koneksi Nyata",
+    "subtitle": "Dimulai dengan Kepercayaan",
+    "description": "Jangan biarkan koneksi nyata menghilang. Rasakan kencan otentik dengan profil terverifikasi, notifikasi cerdas yang mengingatkan Anda sebelum match berakhir, dan perkenalan video.",
+    "joinWaitlist": "Bergabung Daftar Tunggu",
+    "watchDemo": "Tonton Demo",
+    "verified": "100% Terverifikasi",
+    "verifiedDesc": "Setiap profil diautentikasi",
+    "videoIntros": "Video Perkenalan",
+    "videoIntrosDesc": "Klip kepribadian 5-10 detik",
+    "instagramVerified": "Instagram Terverifikasi",
+    "instagramVerifiedDesc": "Kehadiran sosial nyata"
+  },
+  "features": {
+    "title": "Fitur yang Penting",
+    "description": "Kami telah menciptakan ulang kencan online dengan fitur yang dirancang untuk menciptakan koneksi otentik dan menghormati waktu Anda.",
+    "multiLevelVerification": {
+      "title": "Verifikasi Multi-Level",
+      "description": "Verifikasi identitas berbasis AI yang dikombinasikan dengan bukti sosial memastikan setiap profil otentik. Katakan selamat tinggal pada catfishing selamanya."
+    },
+    "instagramSocialProof": {
+      "title": "Bukti Sosial Instagram",
+      "description": "Lihat jumlah pengikut nyata, tingkat engagement, dan status aktivitas. Ketahui identitasmereka asli dengan kehadiran sosial terverifikasi."
+    },
+    "smartNotifications": {
+      "title": "Notifikasi Cerdas",
+      "description": "Dapatkan pengingat tentang match yang akan berakhir, saran pembuka percakapan, dan waktu optimal untuk terhubung berdasarkan aktivitas bersama."
+    },
+    "qualityMatches": {
+      "title": "Match Berkualitas",
+      "description": "Algoritme kami fokus pada kecocokan daripada kuantitas, memastikan koneksi bermakna yang memiliki peluang sukses lebih tinggi."
+    },
+    "engagementAnalytics": {
+      "title": "Analisis Engagement",
+      "description": "Lihat tingkat engagement otentik yang dihitung dari 10 posting terakhir. Engagement lebih tinggi berarti koneksi yang lebih asli."
+    },
+    "privacyFirst": {
+      "title": "Privasi Diutamakan",
+      "description": "Data Anda dienkripsi end-to-end. Kendalikan apa yang Anda bagikan dan kapan, dengan pengaturan privasi granular untuk setiap interaksi."
+    },
+    "islamicCompatibility": {
+      "title": "Kecocokan Islam",
+      "description": "Pencocokan tingkat lanjut berdasarkan tingkat praktik keagamaan, preferensi mazhab, dan pilihan gaya hidup Islam untuk hubungan Muslim yang bermakna."
+    },
+    "waliGuardian": {
+      "title": "Keterlibatan Wali/Penjaga",
+      "description": "Opsi fleksibel untuk keterlibatan keluarga - dari pengaturan wali tradisional hingga perkenalan keluarga modern. Hormati tradisi Islam."
+    },
+    "seriousCandidates": {
+      "title": "Kandidat Pernikahan Serius Saja",
+      "description": "Pemeriksaan ketat memastikan hanya individu yang berorientasi pernikahan serius. Tidak ada pembuang waktu, pemain, atau penipu - hanya orang asli yang siap berkomitmen."
+    }
+  },
+  "islamicCompatibility": {
+    "title": "Kecocokan Islami",
+    "description": "Temukan jodoh Anda dengan fitur-fitur yang dirancang khusus untuk pasangan Muslim — menghormati nilai-nilai Islam sambil memanfaatkan teknologi modern.",
+    "religiousPractice": {
+      "title": "Pencocokan Praktik Keagamaan",
+      "description": "Cocokkan berdasarkan frekuensi shalat, kebiasaan membaca Al-Qur’an, dan tingkat pemahaman agama. Temukan seseorang yang sejalan dengan perjalanan spiritual Anda."
+    },
+    "sectPreferences": {
+      "title": "Preferensi Mazhab",
+      "description": "Tentukan mazhab yang Anda anut dan temukan pasangan yang memiliki pemahaman serta praktik keagamaan yang serupa."
+    },
+    "marriageTimeline": {
+      "title": "Niat & Timeline Pernikahan",
+      "description": "Jelaskan niat dan rencana Anda—siap menikah sekarang atau ingin membangun hubungan lebih dulu. Bebas dari sinyal yang membingungkan."
+    },
+    "familyInvolvement": {
+      "title": "Preferensi Keterlibatan Keluarga",
+      "description": "Atur sejauh mana keluarga ingin terlibat — dari perkenalan awal hingga pendekatan tradisional dengan wali. Semua sesuai pilihan Anda."
+    },
+    "waliOptions": {
+      "title": "Opsi Wali",
+      "description": "Keterlibatan wali yang fleksibel—mulai dari pendekatan tradisional hingga perkenalan keluarga yang lebih modern. Hormati syariat dengan cara yang relevan."
+    },
+    "lifestyleCompatibility": {
+      "title": "Kecocokan Gaya Hidup",
+      "description": "Cocokkan preferensi terkait hijab, makanan halal, aktivitas sosial, dan gaya hidup Islami. Bangun rumah tangga yang harmonis dan sejalan secara nilai."
+    },
+    "valuesAlignment": {
+      "title": "Keselarasan Nilai Islam",
+      "description": "Temukan kecocokan mendalam berdasarkan nilai-nilai Islam, kepribadian, dan tujuan hidup. Untuk pernikahan yang sevisi dan bermakna."
+    },
+    "halalGuidelines": {
+      "title": "Panduan Interaksi Halal",
+      "description": "Panduan etika Islami untuk komunikasi yang sopan dan menghargai batasan syar’i. Kenali satu sama lain dengan cara yang halal dan nyaman."
+    },
+    "principlesTitle": "Dibangun di Atas Prinsip Islam",
+    "principlesDescription": "Platform ini dirancang dengan nilai-nilai Islam sebagai landasan utama. Kami menjunjung tinggi kesucian pernikahan, mendorong interaksi yang halal, dan mendukung nilai-nilai keluarga, sambil menawarkan alat modern untuk menemukan pasangan yang tepat."
+  },
+  "videoIntro": {
+    "title": "Tunjukkan Diri Anda yang Sebenarnya",
+    "subtitle": "dalam beberapa Detik",
+    "description": "Kesan pertama penting. Biarkan kepribadian Anda bersinar melalui perkenalan video 5-10 detik. Tidak ada skrip, hanya Anda yang otentik.",
+    "features": {
+      "easyRecording": {
+        "title": "Perekaman Mudah",
+        "description": "Rekam langsung di aplikasi dengan panduan"
+      },
+      "timeEfficient": {
+        "title": "Efisien Waktu",
+        "description": "Kenali kepribadiannya sekilas yang menghemat jam chatting"
+      },
+      "instantChemistry": {
+        "title": "Chemistry Instan",
+        "description": "Ketahui apakah ada sparks sebelum matching"
+      }
+    },
+    "cta": "Lihat Cara Kerjanya",
+    "preview": {
+      "title": "Pratinjau Video",
+      "subtitle": "Kepribadian Anda dalam gerakan"
+    }
+  },
+  "socialProof": {
+    "instagramBadge": "Instagram Terhubung = Orang Nyata",
+    "title": "Bukti Sosial",
+    "subtitle": "Yang Penting",
+    "description": "Hubungkan Instagram Anda untuk menunjukkan Anda nyata, aktif, dan benar-benar terlibat. Tidak ada lagi permainan tebak-tebakan - lihat kehadiran sosial otentik dalam sekejap.",
+    "profile": {
+      "name": "Sarah M.",
+      "followers": "2.3K pengikut",
+      "following": "891 mengikuti",
+      "activeStatus": "Aktif 15 menit yang lalu"
+    },
+    "stats": {
+      "engagement": "4.8%",
+      "engagementLabel": "Engagement",
+      "avgLikes": "143",
+      "avgLikesLabel": "Rata-rata Suka",
+      "avgComments": "27",
+      "avgCommentsLabel": "Rata-rata Komentar"
+    },
+    "features": {
+      "followerInsights": {
+        "title": "Wawasan Pengikut",
+        "description": "Lihat sekilas jumlah pengikut. Pastikan mereka benar-benar nyata dan punya koneksi asli.",
+        "verified": "Pengikut nyata terverifikasi"
+      },
+      "engagementRate": {
+        "title": "Tingkat Engagement",
+        "description": "Dihitung dari 10 posting terakhir. Engagement lebih tinggi = koneksi yang lebih asli.",
+        "average": "Rata-rata engagement: 3-5% sangat baik!"
+      },
+      "activityStatus": {
+        "label": "Status Aktivitas",
+        "title": "Ketahui Kapan Mereka Online",
+        "description": "Lihat kapan terakhir kali mereka aktif. Pilih waktu pesan Anda dengan sempurna.",
+        "toggle": "Tampilkan status aktivitas saya"
+      }
+    },
+    "privacy": "Data Instagram Anda dienkripsi dan tidak pernah dibagikan"
+  },
+  "notifications": {
+    "title": "Jangan Biarkan Koneksi Menghilang",
+    "subtitle": "Sistem notifikasi cerdas kami membuat Anda tetap terhubung tanpa membebani. Dapatkan pengingat pada waktu yang tepat untuk memelihara koneksi bermakna.",
+    "features": {
+      "beforeVanish": {
+        "title": "Sebelum Mereka Menghilang",
+        "description": "Dapatkan notifikasi 24 jam sebelum match menghilang, memberi Anda waktu untuk membuat koneksi bermakna."
+      },
+      "perfectTiming": {
+        "title": "Waktu Sempurna",
+        "description": "AI menganalisis pola aktivitas bersama untuk menyarankan waktu terbaik untuk menghubungi untuk tingkat respons yang lebih tinggi."
+      },
+      "conversationStarters": {
+        "title": "Pembuka Percakapan",
+        "description": "Bingung apa yang harus dikatakan? Dapatkan saran percakapan yang dipersonalisasi berdasarkan minat bersama."
+      },
+      "specialMoments": {
+        "title": "Momen Khusus",
+        "description": "Ingat tanggal penting dan milestones dengan pengingat lembut untuk memperkuat koneksi Anda."
+      }
+    },
+    "smartNotifications": "Notifikasi cerdas menghormati pengaturan Jangan Ganggu Anda"
+  },
+  "cta": {
+    "title": "Siap Menemukan Pasangan Anda?",
+    "description": "Ribuan orang sudah merasakan serunya kencan yang jujur, cerdas, dan saling menghargai. Yuk, jadi salah satuyang pertama coba Vanish!",
+    "button": "Bergabung Daftar Tunggu",
+    "waitlistCount": "5.847",
+    "waitlistText": "orang sudah bergabung",
+    "availableSoon": "Segera tersedia di",
+    "platforms": {
+      "ios": "iOS App Store",
+      "android": "Google Play"
+    }
+  },
+  "languageToggle": {
+    "english": "English",
+    "indonesian": "Bahasa Indonesia"
+  }
+}

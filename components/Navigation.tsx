@@ -1,8 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useLanguage } from "../contexts/LanguageContext";
+import LanguageToggle from "./LanguageToggle";
 
 export default function Navigation() {
+  const { ts } = useLanguage();
+
   return (
     <motion.nav
       initial={{ y: -100, opacity: 0 }}
@@ -24,35 +28,40 @@ export default function Navigation() {
               href="#features"
               className="text-light/80 hover:text-light transition-colors"
             >
-              Features
+              {ts("navigation.features")}
             </a>
             <a
               href="#islamic-compatibility"
               className="text-light/80 hover:text-light transition-colors"
             >
-              Islamic Match
+              {ts("navigation.islamicMatch")}
             </a>
             <a
               href="#video"
               className="text-light/80 hover:text-light transition-colors"
             >
-              Video Intros
+              {ts("navigation.videoIntros")}
             </a>
             <a
               href="#social-proof"
               className="text-light/80 hover:text-light transition-colors"
             >
-              Social Proof
+              {ts("navigation.socialProof")}
             </a>
             <a
               href="#notifications"
               className="text-light/80 hover:text-light transition-colors"
             >
-              Smart Alerts
+              {ts("navigation.smartAlerts")}
             </a>
           </div>
 
-          <button className="button-primary">Get Early Access</button>
+          <div className="flex items-center space-x-4">
+            <LanguageToggle />
+            <button className="button-primary">
+              {ts("navigation.getEarlyAccess")}
+            </button>
+          </div>
         </div>
       </div>
     </motion.nav>
