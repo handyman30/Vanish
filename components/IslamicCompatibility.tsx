@@ -13,6 +13,7 @@ import {
   UsersIcon,
   SparklesIcon,
 } from "@heroicons/react/24/outline";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const islamicFeatures = [
   {
@@ -73,7 +74,19 @@ const islamicFeatures = [
   },
 ];
 
+const featureKeys = [
+  "religiousPractice",
+  "sectPreferences",
+  "marriageTimeline",
+  "familyInvolvement",
+  "waliOptions",
+  "lifestyleCompatibility",
+  "valuesAlignment",
+  "halalGuidelines",
+];
+
 export default function IslamicCompatibility() {
+  const { ts } = useLanguage();
   return (
     <section id="islamic-compatibility" className="py-24 px-6 relative">
       {/* Decorative background elements */}
@@ -97,12 +110,12 @@ export default function IslamicCompatibility() {
             </div>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold mb-8">
-            <span className="gradient-text">Islamic Compatibility</span>
+            <span className="gradient-text">
+              {ts("islamicCompatibility.title")}
+            </span>
           </h2>
           <p className="text-xl text-light/70 max-w-4xl mx-auto leading-relaxed">
-            Find your soulmate with features designed specifically for Muslim
-            couples, respecting Islamic values while embracing modern
-            technology.
+            {ts("islamicCompatibility.description")}
           </p>
         </motion.div>
 
@@ -131,10 +144,12 @@ export default function IslamicCompatibility() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold mb-3 text-light">
-                      {feature.title}
+                      {ts(`islamicCompatibility.${featureKeys[index]}.title`)}
                     </h3>
                     <p className="text-light/70 leading-relaxed">
-                      {feature.description}
+                      {ts(
+                        `islamicCompatibility.${featureKeys[index]}.description`
+                      )}
                     </p>
                   </div>
                 </div>
@@ -159,13 +174,10 @@ export default function IslamicCompatibility() {
             </div>
             <div className="mt-8">
               <h3 className="text-3xl font-bold mb-6 gradient-text">
-                Built on Islamic Principles
+                {ts("islamicCompatibility.principlesTitle")}
               </h3>
               <p className="text-light/70 max-w-3xl mx-auto text-lg leading-relaxed">
-                Our platform is designed with Islamic values at its core. We
-                respect the sanctity of marriage, promote halal interactions,
-                and support traditional family values while providing modern
-                tools for finding your perfect match.
+                {ts("islamicCompatibility.principlesDescription")}
               </p>
               <div className="mt-8 flex justify-center space-x-4">
                 <div className="w-3 h-3 bg-primary rounded-full"></div>
