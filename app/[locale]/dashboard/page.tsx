@@ -3,7 +3,14 @@
 import { useSession, signOut } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { User, Settings, LogOut, Heart, MessageCircle, Bell } from "lucide-react";
+import {
+  User,
+  Settings,
+  LogOut,
+  Heart,
+  MessageCircle,
+  Bell,
+} from "lucide-react";
 
 export default function DashboardPage() {
   const { data: session, status } = useSession();
@@ -36,7 +43,7 @@ export default function DashboardPage() {
             <div className="flex items-center">
               <h1 className="text-2xl font-bold text-white">Vanish</h1>
             </div>
-            
+
             <div className="flex items-center space-x-4">
               <button className="p-2 text-gray-300 hover:text-white transition-colors">
                 <Bell className="h-6 w-6" />
@@ -68,14 +75,17 @@ export default function DashboardPage() {
                 Welcome back, {session.user?.name || "User"}!
               </h2>
               <p className="text-gray-300">
-                Ready to find your perfect match? Complete your profile to get started.
+                Ready to find your perfect match? Complete your profile to get
+                started.
               </p>
             </div>
           </div>
 
           {/* Profile Completion */}
           <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
-            <h3 className="text-lg font-semibold text-white mb-4">Profile Completion</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">
+              Profile Completion
+            </h3>
             <div className="space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-gray-300">Basic Info</span>
@@ -101,7 +111,9 @@ export default function DashboardPage() {
 
           {/* Quick Stats */}
           <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
-            <h3 className="text-lg font-semibold text-white mb-4">Your Stats</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">
+              Your Stats
+            </h3>
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <span className="text-gray-300">Profile Views</span>
@@ -124,7 +136,9 @@ export default function DashboardPage() {
 
           {/* Quick Actions */}
           <div className="bg-white/10 backdrop-blur-md rounded-lg p-6 border border-white/20">
-            <h3 className="text-lg font-semibold text-white mb-4">Quick Actions</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">
+              Quick Actions
+            </h3>
             <div className="space-y-3">
               <button className="w-full flex items-center justify-center space-x-2 py-3 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-lg hover:from-pink-700 hover:to-purple-700 transition-all duration-200">
                 <Heart className="h-5 w-5" />
@@ -144,4 +158,4 @@ export default function DashboardPage() {
       </main>
     </div>
   );
-} 
+}

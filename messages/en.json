@@ -1,0 +1,227 @@
+{
+  "navigation": {
+    "features": "Features",
+    "islamicMatch": "Islamic Match",
+    "videoIntros": "Video Intros",
+    "socialProof": "Social Proof",
+    "smartAlerts": "Smart Alerts",
+    "getEarlyAccess": "Get Early Access"
+  },
+  "hero": {
+    "tagline": "Make connections before they vanish",
+    "title": "Real Connections",
+    "subtitle": "Start with Trust",
+    "description": "Don't let real connections vanish. Experience authentic dating with verified profiles, smart notifications that remind you before matches expire, and video introductions.",
+    "joinWaitlist": "Join Waitlist",
+    "watchDemo": "Watch Demo",
+    "verified": "100% Verified",
+    "verifiedDesc": "Every profile authenticated",
+    "videoIntros": "Video Intros",
+    "videoIntrosDesc": "5-10 second personality clips",
+    "instagramVerified": "Instagram Verified",
+    "instagramVerifiedDesc": "Real social presence"
+  },
+  "features": {
+    "title": "Features that Matter",
+    "description": "We've reimagined online dating with features designed to create authentic connections and respect your time.",
+    "multiLevelVerification": {
+      "title": "Multi-Level Verification",
+      "description": "AI-powered identity verification combined with social proof ensures every profile is authentic. Say goodbye to catfishing forever."
+    },
+    "instagramSocialProof": {
+      "title": "Instagram Social Proof",
+      "description": "See real follower counts, engagement rates, and activity status. Know they're genuine with verified social presence."
+    },
+    "smartNotifications": {
+      "title": "Smart Notifications",
+      "description": "Get reminded about expiring matches, suggested conversation starters, and optimal times to connect based on mutual activity."
+    },
+    "qualityMatches": {
+      "title": "Quality Matches",
+      "description": "Our algorithm focuses on compatibility over quantity, ensuring meaningful connections that have a higher chance of success."
+    },
+    "engagementAnalytics": {
+      "title": "Engagement Analytics",
+      "description": "View authentic engagement rates calculated from the last 10 posts. Higher engagement means more genuine connections."
+    },
+    "privacyFirst": {
+      "title": "Privacy First",
+      "description": "Your data is encrypted end-to-end. Control what you share and when, with granular privacy settings for every interaction."
+    },
+    "islamicCompatibility": {
+      "title": "Islamic Compatibility Matching",
+      "description": "Advanced matching based on religious practice level, sect preferences, and Islamic lifestyle choices for meaningful Muslim relationships."
+    },
+    "waliGuardian": {
+      "title": "Wali/Guardian Involvement",
+      "description": "Flexible options for family involvement - from traditional wali arrangements to modern family introductions. Respect Islamic traditions."
+    },
+    "seriousCandidates": {
+      "title": "Serious Marriage Candidates Only",
+      "description": "Rigorous screening ensures only serious, marriage-oriented individuals. No time wasters, players, or frauds - just genuine people ready for commitment."
+    }
+  },
+  "islamicCompatibility": {
+    "title": "Islamic Compatibility",
+    "description": "Find your soulmate with features designed specifically for Muslim couples, respecting Islamic values while embracing modern technology.",
+    "religiousPractice": {
+      "title": "Religious Practice Matching",
+      "description": "Match based on prayer frequency, Quran reading habits, and Islamic knowledge level. Find someone who shares your spiritual journey."
+    },
+    "sectPreferences": {
+      "title": "Sect & Madhab Preferences",
+      "description": "Specify your preferred Islamic school of thought and find compatible matches who share your religious understanding and practices."
+    },
+    "marriageTimeline": {
+      "title": "Marriage Timeline Intentions",
+      "description": "Be clear about your timeline - whether you're ready for marriage now or looking to build a relationship first. No mixed signals."
+    },
+    "familyInvolvement": {
+      "title": "Family Involvement Preferences",
+      "description": "Choose your comfort level with family involvement - from early introductions to traditional wali arrangements. Your choice, your pace."
+    },
+    "waliOptions": {
+      "title": "Wali/Guardian Options",
+      "description": "Flexible guardian involvement - from traditional wali arrangements to modern family introductions. Respect for Islamic traditions with modern flexibility."
+    },
+    "lifestyleCompatibility": {
+      "title": "Lifestyle Compatibility",
+      "description": "Match on hijab preferences, halal food choices, social activities, and Islamic lifestyle choices. Build a harmonious Islamic home together."
+    },
+    "valuesAlignment": {
+      "title": "Islamic Values Alignment",
+      "description": "Deep compatibility based on core Islamic values, character traits, and life goals. Find someone who shares your vision of an Islamic marriage."
+    },
+    "halalGuidelines": {
+      "title": "Halal Interaction Guidelines",
+      "description": "Built-in Islamic etiquette for respectful communication. Maintain Islamic boundaries while getting to know each other in a halal way."
+    },
+    "principlesTitle": "Built on Islamic Principles",
+    "principlesDescription": "Our platform is designed with Islamic values at its core. We respect the sanctity of marriage, promote halal interactions, and support traditional family values while providing modern tools for finding your perfect match."
+  },
+  "videoIntro": {
+    "title": "Show Your True Self",
+    "subtitle": "in Seconds",
+    "description": "First impressions matter. Let your personality shine through with 5-10 second video introductions. No scripts, just authentic you.",
+    "features": {
+      "easyRecording": {
+        "title": "Easy Recording",
+        "description": "Record directly in-app with guided prompts"
+      },
+      "timeEfficient": {
+        "title": "Time-Efficient",
+        "description": "Quick glimpses that save hours of chatting"
+      },
+      "instantChemistry": {
+        "title": "Instant Chemistry",
+        "description": "Know if there's a spark before matching"
+      }
+    },
+    "cta": "See How It Works",
+    "preview": {
+      "title": "Video Preview",
+      "subtitle": "Your personality in motion"
+    }
+  },
+  "socialProof": {
+    "instagramBadge": "Instagram Connected = Real People",
+    "title": "Social Proof",
+    "subtitle": "That Matters",
+    "description": "Connect your Instagram to show you're real, active, and genuinely engaged. No more guessing games - see authentic social presence at a glance.",
+    "profile": {
+      "name": "Sarah M.",
+      "followers": "2.3K followers",
+      "following": "891 following",
+      "activeStatus": "Active 15 min ago"
+    },
+    "stats": {
+      "engagement": "4.8%",
+      "engagementLabel": "Engagement",
+      "avgLikes": "143",
+      "avgLikesLabel": "Avg Likes",
+      "avgComments": "27",
+      "avgCommentsLabel": "Avg Comments"
+    },
+    "features": {
+      "followerInsights": {
+        "title": "Follower Insights",
+        "description": "See follower counts at a glance. Know they're real people with real connections.",
+        "verified": "Real followers verified"
+      },
+      "engagementRate": {
+        "title": "Engagement Rate",
+        "description": "Calculated from last 10 posts. Higher engagement = more genuine connections.",
+        "average": "Average engagement: 3-5% is excellent!"
+      },
+      "activityStatus": {
+        "label": "Activity Status",
+        "title": "Know When They're Online",
+        "description": "See when they were last active. Time your messages perfectly.",
+        "toggle": "Show my activity status"
+      }
+    },
+    "privacy": "Your Instagram data is encrypted and never shared"
+  },
+  "notifications": {
+    "title": "Never Let Connections Vanish",
+    "subtitle": "Our intelligent notification system keeps you connected without being overwhelming. Get reminded at the perfect time to nurture meaningful connections.",
+    "features": {
+      "beforeVanish": {
+        "title": "Before They Vanish",
+        "description": "Get notified 24 hours before a match vanishes, giving you time to make a meaningful connection."
+      },
+      "perfectTiming": {
+        "title": "Perfect Timing",
+        "description": "AI analyzes mutual activity patterns to suggest the best times to reach out for higher response rates."
+      },
+      "conversationStarters": {
+        "title": "Conversation Starters",
+        "description": "Stuck on what to say? Get personalized conversation suggestions based on shared interests."
+      },
+      "specialMoments": {
+        "title": "Special Moments",
+        "description": "Remember important dates and milestones with gentle reminders to strengthen your connections."
+      }
+    },
+    "smartNotifications": "Smart notifications respect your Do Not Disturb settings"
+  },
+  "cta": {
+    "title": "Ready to Find Your Person?",
+    "description": "Join thousands who are already experiencing dating with authenticity, intelligence, and respect. Be among the first to try Vanish.",
+    "button": "Join the Waitlist",
+    "waitlistCount": "5,847",
+    "waitlistText": "people already joined",
+    "availableSoon": "Available soon on",
+    "platforms": {
+      "ios": "iOS App Store",
+      "android": "Google Play"
+    }
+  },
+  "languageToggle": {
+    "english": "English",
+    "indonesian": "Bahasa Indonesia"
+  },
+  "islamicFeatures": {
+    "title": "Islamic Features",
+    "list": [
+      "Religious Practice Matching",
+      "Sect & Madhab Preferences",
+      "Marriage Timeline Intentions",
+      "Family Involvement Preferences",
+      "Wali/Guardian Options",
+      "Lifestyle Compatibility",
+      "Islamic Values Alignment",
+      "Halal Interaction Guidelines"
+    ],
+    "descriptions": [
+      "Match based on prayer frequency, Quran reading habits, and Islamic knowledge level. Find someone who shares your spiritual journey.",
+      "Specify your preferred Islamic school of thought and find compatible matches who share your religious understanding and practices.",
+      "Be clear about your timeline - whether you're ready for marriage now or looking to build a relationship first. No mixed signals.",
+      "Choose your comfort level with family involvement - from early introductions to traditional wali arrangements. Your choice, your pace.",
+      "Flexible guardian involvement - from traditional wali arrangements to modern family introductions. Respect for Islamic traditions with modern flexibility.",
+      "Match on hijab preferences, halal food choices, social activities, and Islamic lifestyle choices. Build a harmonious Islamic home together.",
+      "Deep compatibility based on core Islamic values, character traits, and life goals. Find someone who shares your vision of an Islamic marriage.",
+      "Built-in Islamic etiquette for respectful communication. Maintain Islamic boundaries while getting to know each other in a halal way."
+    ]
+  }
+}
